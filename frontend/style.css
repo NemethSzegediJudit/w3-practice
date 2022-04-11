@@ -3,47 +3,6 @@ body {
     padding: 0;
 }
 
-div.first {
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-}
-
-div.first~div {
-    border-left: 10px solid greenyellow;
-}
-
-div.first.most-inner {
-    border-radius: 50%;
-}
-
-div.first.most-inner:hover {
-    background-color: black;
-}
-
-div.first.most-inner::before {
-    content: "A";
-    position: fixed;
-    display: block;
-    right: 0;
-    bottom: 0;
-    width: 100px;
-    height: 100px;
-    background-color: antiquewhite;
-}
-
-div.first.most-inner::after {
-    content: "B";
-}
-
-body>div.first,
-div.first.most-inner {
-    border-bottom: 10px solid whitesmoke;
-}
-
-div {
-    box-sizing: border-box;
-}
-
 body>div {
     height: 100vh;
     width: 100vh;
