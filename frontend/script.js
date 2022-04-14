@@ -16,9 +16,9 @@ async function loadEvent() {
     <h1>Countries</h1>
     `)
 
-    countriesSection.insertAdjacentHTML("beforeend", countriesJson[111].name.common)
+    /* countriesSection.insertAdjacentHTML("beforeend", countriesJson[111].name.common)
 
-    /*let countryComponent = `
+        let countryComponent = `
         < div class="country" >
             <h2>Ide kerül az ország neve</h2>
         </div >
